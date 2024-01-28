@@ -1,0 +1,10 @@
+import re
+import datetime  as dt
+from datetime import datetime as dtdt
+
+def get_days_from_today():
+    print(dtdt.now().isoformat())
+    pass
+
+#DD = dt.today()
+get_days_from_today()
